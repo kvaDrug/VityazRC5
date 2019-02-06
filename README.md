@@ -1,7 +1,4 @@
-# VityazRC5
-The list of RC-5 commands used by VityazⓇ TVs + the Arduino project used to obtain them.
-
-### VityazⓇ TV Remote Control Protocol
+# VityazⓇ TV Remote Control Protocol
 
 [VityazⓇ](http://en.vityas.com/) simply utilises [RC-5](https://en.wikipedia.org/wiki/RC-5) protocol. The field bit is constantly set to 1. The address is always 0 and the available commands are listed in Table 1.  
 
