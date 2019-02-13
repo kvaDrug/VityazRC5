@@ -1,6 +1,6 @@
 # VityazⓇ TV Remote Control Protocol
 
-[VityazⓇ](http://en.vityas.com/) simply utilises [RC-5](https://en.wikipedia.org/wiki/RC-5) protocol. The field bit is constantly set to 1. The address is always 0 and the available commands are listed in Table 1.  
+[VityazⓇ](http://en.vityas.com/) simply utilises [RC-5](https://en.wikipedia.org/wiki/RC-5) protocol. The field bit is constantly set to 1. The address (5 bit) is always 0 and the available commands (6 bit) are listed in Table 1.  
 
 The commands was obtained with help of the Arduino project based on [IRLib2](https://github.com/cyborg5/IRLib2). The `.ico` file can be found in the repository.
 
